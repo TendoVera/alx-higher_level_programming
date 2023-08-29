@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+"""a class Square that defines a square"""
+class Square:
+    """the class is defined by the name 'sqaure'"""
+    def __init__(self,size):
+    """ The __init__ method is a constructor used for self and size,
+        Attributes:
+        Size is used to the size of the square"""
+        self.__size = size
