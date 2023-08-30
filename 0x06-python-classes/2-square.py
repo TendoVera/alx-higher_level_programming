@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """define a sqaure"""
 class Square:
+  """square is the keyword forclass"""
   def __init__(self, size=0):
     """to check size of sqaure.
     Args:
