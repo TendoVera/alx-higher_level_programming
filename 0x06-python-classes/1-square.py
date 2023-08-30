@@ -3,5 +3,6 @@
 class Square:
   """the class is defined by the name 'sqaure'"""
 def __init__(self, size):
+    """the inint method is a constructor"""
     self.__size = size
-    """The __init__ method is a constructor and size is used to the size of the square"""
+    """size is used to the size of the square"""
