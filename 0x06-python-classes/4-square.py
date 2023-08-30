@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """defining a class"""
 class Square:
+  """square is the keyword"""  
   def __init__(self, size=0):
     """new square.
     Args:
