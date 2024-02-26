@@ -16,7 +16,7 @@ class Square(Rectangle):
             y (int, optional): The y-coordinate of the top-left corner of the square. Defaults to 0.
             id (int, optional): The identifier of the square. Defaults to None.
         """
-    super().__init__(size, size, x, y, id)
+        super().__init__(size, size, x, y, id)
 
     def __str__(self):
         '''Returns string info about this square.'''
